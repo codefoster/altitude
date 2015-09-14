@@ -1,0 +1,25 @@
+{
+  "name": "altitude",
+  "version": "0.0.0",
+  "description": "altitude",
+  "main": "app.js",
+  "scripts": [
+    {
+      "deploy": "node deploy.js"
+    }
+  ],
+  "author": {
+    "name": "jerfost",
+    "email": ""
+  },
+  "dependencies": {
+    "cylon-intel-iot": "^0.4.0",
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-rename": "^1.2.0",
+    "gulp-scp": "0.0.3",
+    "scp": "0.0.3"
+  }
+}
